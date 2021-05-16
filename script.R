@@ -1,4 +1,3 @@
-load("E:/DAI_CUONG/XSTK/Materials/Coursework/2/BTL2 cho SV - HK201/R_files/flights.rda")
 newFlights <- select(flights, "carrier", "origin", "dep_time", "arr_time", "dep_delay", "arr_delay")
 
 colSums(is.na(df))
